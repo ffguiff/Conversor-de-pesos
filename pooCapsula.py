@@ -109,5 +109,5 @@ class Capsula:
         
 
 
-#inserir campo de calculo para devolução e pre salvar ultimos pesos de capsulas caso o usuario 
-#queira relembrar o peso delas
+
+
