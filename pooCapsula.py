@@ -2,7 +2,7 @@ class Capsula:
 
     def calculoComValordaCapsula(self):
         while True:
-            print("DIGITE TODAS AS INFORMAÇÕES SEM CARACTER!")
+            print("DIGITE TODAS AS INFORMAÇÕES SEM CARACTER!") 
             pesoCapsula = input("Digite o peso da capsula(ex: 98,0 mg = 98): ")
             quantidadeEmUnd = input("Digite a quantidade de unidades que deseja converter: ")
             try:
