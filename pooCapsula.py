@@ -1,4 +1,4 @@
-class Capsula:
+class Capsula: 
 
     def calculoComValordaCapsula(self):
         while True:
