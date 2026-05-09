@@ -6,7 +6,7 @@ class Capsula:
             pesoCapsula = input("Digite o peso da capsula(ex: 98,0 mg = 98): ")
             quantidadeEmUnd = input("Digite a quantidade de unidades que deseja converter: ")
             try:
-                intPesoCapsula = int(pesoCapsula)
+                intPesoCapsula = int(pesoCapsula)  
                 intQuantidadeEmUnd = int(quantidadeEmUnd)
 
                 valorEmKg = (intPesoCapsula * intQuantidadeEmUnd)/1000
