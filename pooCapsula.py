@@ -7,7 +7,7 @@ class Capsula:
             quantidadeEmUnd = input("Digite a quantidade de unidades que deseja converter: ")
             try:
                 intPesoCapsula = int(pesoCapsula)  
-                intQuantidadeEmUnd = int(quantidadeEmUnd)
+                intQuantidadeEmUnd = int(quantidadeEmUnd) 
 
                 valorEmKg = (intPesoCapsula * intQuantidadeEmUnd)/1000
                 resultado = f"{valorEmKg:,.3f}".replace(".", ",")
