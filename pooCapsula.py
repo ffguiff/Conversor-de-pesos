@@ -9,7 +9,7 @@ class Capsula:
                 intPesoCapsula = int(pesoCapsula)  
                 intQuantidadeEmUnd = int(quantidadeEmUnd) 
 
-                valorEmKg = (intPesoCapsula * intQuantidadeEmUnd)/1000
+                valorEmKg = (intPesoCapsula * intQuantidadeEmUnd)/1000 
                 resultado = f"{valorEmKg:,.3f}".replace(".", ",")
 
                 linha = f"você deverá pesar: {resultado} mg, que será o mesmo que: {quantidadeEmUnd} und\n"
